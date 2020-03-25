@@ -1,0 +1,74 @@
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-top: 45px
+  margin-bottom: 30%
+.logo
+  &-text
+    margin: 0
+    font-size: 24px
+    font-weight: 900
+.search
+  display: flex
+  align-items: center
+  flex: 0.8
+  &-input
+    flex: 1
+    margin-right: 15px
+    padding: 12px 18px
+    font-size: 14px
+    color: $color-input
+    border: none
+    background: $color-hover
+    border-radius: 5px
+  &-button
+    min-width: 40px
+    padding: 10px
+    background: transparent
+    border-radius: 5px
+    transition: .1s ease
+    path
+      fill: #87888b
+    &:hover, &:active, &:focus
+      background: $color-hover
+      path
+        fill: $color-orang
+.user
+  display: flex
+  align-items: center
+  &-bookmark
+    width: 40px
+    height: 40px
+    padding: 10px
+    background: transparent
+    border-radius: 5px
+    transition: .1s ease
+    path
+      fill: white
+    &:hover, &:active, &:focus
+      background: $color-hover
+      path
+        fill: $color-orang
+  &-avatar
+    margin-left: 20px
+    background-color: rgba($color-white, 0.3)
+    width: 40px
+    height: 40px
+    border-radius: 100%
+    overflow: hidden
+    &__image
+      object-fit: cover
+@media (max-width: 767.98px)
+  .header
+    flex-wrap: wrap
+  .search
+    order: 1
+    flex-basis: 100%
+    margin-top: 30px
+  .user
+    flex-direction: row-reverse
+    &-avatar
+      margin-left: 0
+      margin-right: 20px
+

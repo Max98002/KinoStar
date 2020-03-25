@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Киностар</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <h3 class="logo-text">Киностар</h3>
+    </div>
+    <!-- /.logo -->
+    <form action="#" class="search">
+      <input type="search" name="search" id="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
+      <button type="submit" class="button search-button">
+        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M8.80757 0.0393677C3.95121 0.0393677 0 3.99058 0 8.84694C0 13.7036 3.95121 17.6545 8.80757 17.6545C13.6642 17.6545 17.6151 13.7036 17.6151 8.84694C17.6151 3.99058 13.6642 0.0393677 8.80757 0.0393677ZM8.80757 16.0285C4.84769 16.0285 1.62601 12.8069 1.62601 8.84698C1.62601 4.8871 4.84769 1.66538 8.80757 1.66538C12.7675 1.66538 15.9891 4.88706 15.9891 8.84694C15.9891 12.8068 12.7675 16.0285 8.80757 16.0285Z" />
+          <path
+            d="M19.7618 18.6515L15.1005 13.9903C14.7829 13.6727 14.2685 13.6727 13.9509 13.9903C13.6333 14.3076 13.6333 14.8226 13.9509 15.1399L18.6122 19.8011C18.771 19.9599 18.9788 20.0393 19.187 20.0393C19.3948 20.0393 19.6029 19.9599 19.7618 19.8011C20.0794 19.4838 20.0794 18.9689 19.7618 18.6515Z" />
+        </svg>
+
+        <!-- <img src="./img/hero/search-icon.svg" alt="Кнопка Пошуку"> -->
+      </button>
+    </form>
+    <!-- /.search -->
+    <div class="user">
+      <button class="button user-bookmark">
+        <!-- <img src="./img/hero/bookmark.svg" alt="Закладки"> -->
+        <svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12.1645 0.589722H1.00014C0.769564 0.589722 0.582398 0.776724 0.582398 1.00746V16.6529C0.582072 16.9663 0.757162 17.2535 1.03587 17.3968C1.31474 17.5399 1.65024 17.5149 1.90464 17.332L6.58232 13.9789L11.2602 17.3319C11.5147 17.5145 11.8499 17.5393 12.1286 17.3962C12.4071 17.253 12.5824 16.966 12.5824 16.6529V1.00746C12.5824 0.776724 12.3952 0.589722 12.1645 0.589722ZM11.7468 16.6527L6.82594 13.1253C6.68039 13.021 6.48457 13.021 6.33918 13.1253L1.4182 16.6529V1.4252H11.7468V16.6527Z" />
+        </svg>
+
+      </button>
+      <button class="button user-avatar">
+        <img src="./img/hero/avatar.png" alt="Аватарка" class="user-avatar__image">
+      </button>
+    </div>
+    <!-- /.user -->
+  </header>
+  <!-- /.header -->
+
+  <main>
+    <section class="hero">
+      <div class="hero__top">
+        <h1 class="hero__title" id="title-movie">Бэтмен</h1>
+        <!-- /#title-movie.hero-title -->
+        <small class="hero__subtitle" id="subtitle-movie">The Batman</small>
+        <!-- /#subtitle-movie.hero-subtitle -->
+      </div>
+      <!-- /.hero-top -->
+      <div class="hero__bottom">
+        <span class="hero__tag" id="tag">Фильм</span>
+        <!-- /#tag.hero-tag -->
+        <span class="hero__country">США, 2021 год</span>
+        <!-- /.hero-description -->
+        <div class="hero__trailer">
+          <a href="#" class="hero-trailer__link">Смотреть трейлер</a>
+          <!-- /.hero-trailer__link -->
+        </div>
+        <!-- /.hero-trailer -->
+        <div class="hero-details">
+          <a href="#" class="hero-details__link">Подробнее</a>
+          <!-- /.hero-details__link -->
+        </div>
+        <!-- /.hero-details -->
+      </div>
+      <!-- /.hero-bottom -->
+    </section>
+    <!-- /.hero -->
+    <section class="content">
+      <div class="content-box">
+        <div class="short-info">
+          <img src="./img/main/movie-image.png" alt="Betmen" class="image-poster">
+          <button class="button button-watch">Буду смотреть</button>
+          <h3 class="actors-title">В главных ролях:</h3>
+          <ul class="actors-list">
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Роберт Паттинсон</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Зои Кравиц</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Колин Фаррелл</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Питер Сарсгаард</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Пол Дано</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Энди Серкис</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Джеффри Райт</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Джон Туртурро</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Макс Карвер</a></li>
+            <li class="actors-list__item"><a href="#" class="actors-list__link">Кон О’Нилл</a></li>
+          </ul>
+        </div>
+        <!-- /.short-info -->
+        <div class="full-info">
+          <nav class="tabs">
+            <a href="#tab1" title="tab1" class="tabs-item tabs-active">Описание</a>
+            <a href="#tab2" title="tab2" class="tabs-item">Премьеры</a>
+            <a href="#tab3" title="tab3" class="tabs-item">Актеры</a>
+            <a href="#tab4" title="tab4" class="tabs-item">Награды</a>
+            <a href="#tab5" title="tab5" class="tabs-item">Сайты</a>
+          </nav>
+          <!-- /.tabs -->
+          <div class="full-content">
+            <div class="tabs-content">
+              <div class="tabs-description" id="tab1">
+                <p class="text">
+                  Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC
+                  Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.
+                </p>
+                <p class="text">
+                  Фильм является десятым по счёту фильмом из Расширенной вселенной DC. Режиссёром и сценаристом фильма
+                  выступит Мэтт Ривз, а главную роль исполнит Роберт Паттинсон
+                </p>
+                <h4 class="text-title">Разработка</h4>
+                <!-- /.text-title -->
+                <p class="text">
+                  В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене,
+                  роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со
+                  студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом.
+
+
+                </p>
+                <p class="text">
+                  После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME
+                  Патрик
+                  Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его
+                  рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про
+                  Тёмного Рыцаря.
+                </p>
+                <p class="text">
+                  На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром
+                  картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый
+                  материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что
+                  Джо
+                  Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.
+                </p>
+              </div>
+              <!-- /.tabs-description -->
+              <div class="tabs-actors" id="tab3">
+                <ul class="actors-list tabs-actors-list">
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Роберт Паттинсон</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Зои Кравиц</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Колин Фаррелл</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Питер Сарсгаард</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Пол Дано</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Энди Серкис</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Джеффри Райт</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Джон Туртурро</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Макс Карвер</a></li>
+                  <li class="actors-list__item"><a href="#" class="actors-list__link">Кон О’Нилл</a></li>
+                </ul>
+              </div>
+              <!-- /.tabs-actors -->
+            </div>
+            <!-- /.tabs-content -->
+            <div class="subscribe">
+              <h4 class="subscribe-title">Подпишитесь на обновления</h4>
+              <!-- Форма подписки -->
+              <form action="#" class="subscribe-form">
+                <div class="input-group">
+                  <input type="text" class="subscribe-input input" placeholder="Ваш Email">
+                </div>
+                <button type="submit" class="button button-subscribe">
+                  <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19.9582 0.542055C19.5677 0.151509 18.9346 0.151509 18.544 0.542055L6.56338 12.5228L1.95823 7.91763C1.56772 7.52709 0.934594 7.52712 0.544008 7.91763C0.153462 8.30814 0.153462 8.94126 0.544008 9.33181L5.85627 14.644C6.24666 15.0345 6.88025 15.0342 7.27049 14.644L19.9582 1.95627C20.3488 1.56576 20.3487 0.932602 19.9582 0.542055Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </form>
+              <img src="./img/main/baner.png" alt="Baner" class="baner-image">
+              <!-- /.subscribe-form -->
+              <!-- Рекламний банер -->
+            </div>
+            <!-- /.subscribe -->
+          </div>
+          <!-- /.full-content -->
+        </div>
+        <!-- /.full-info -->
+      </div>
+      <!-- /.content-box -->
+    </section>
+    <!-- /.content -->
+  </main>
+
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
