@@ -64,16 +64,14 @@
     min-height: 690px
     max-height: 690px
     overflow-y: auto
-    &::-webkit-input-placeholder 
-      color: $color-input
     &::-webkit-scrollbar
       width: 5px
+    &:hover::-webkit-scrollbar
+      width: 10px
     &::-webkit-scrollbar-track
       background: #f1f1f1
     &::-webkit-scrollbar-thumb
       background: $color-orang
-    &::-webkit-scrollbar-thumb:hover
-      background-color: #555
   &-description
     padding-right: 10px
 .text
@@ -148,9 +146,6 @@
   .tabs
     margin-bottom: 30px
     justify-content: space-between
-    &-actors
-      &-list
-        display: block
   .subscribe
     &-title
       font-size: 15px
